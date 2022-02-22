@@ -31,3 +31,10 @@ def test_only_owner_can_withdraw():
 
 
 # mainnet-forking, built in feature in brownie
+
+# Where should I run my tests?
+# 1. Brownie Ganache Chain with Mocks: Always
+# 2. Testnets: Always (but only for integration testing)
+# 3. Brownie mainnet-fork: Optional
+# 4. Custom mainnet-fork: Optional
+# 5. Self/Local Ganache: Not necessary, but good for tinkering.
